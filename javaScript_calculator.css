@@ -1,0 +1,78 @@
+@green: #a8c39a;
+@purple: #7343a4;
+
+.space{
+	text-align: center;
+	background:linear-gradient(#d9c9e8, @purple);
+}
+.brand{
+	font-size: 15px;
+	font-family: pacifico;
+}
+.chassis{
+	font-family: share tech mono;
+	box-shadow: 0 15px 75px black;
+	border-radius: 25px;
+	background: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	padding: 60px;
+	width: 450px;
+}
+.top{
+	text-align: right;
+	width: 100%;
+	border-radius: 5px;
+	border: 3px solid #5b6854;
+	height: 100px;
+	background-color: #a8c39a;
+	margin-bottom: 8px;
+}
+.top div{
+	padding-right: 15px;
+}
+.result{
+	font-size: 45px;
+	margin-bottom: 0;
+}
+.operator{
+	color: white;
+	background-color: #fa5b00;
+}
+input{
+	font-size: 25px;
+	padding: 30px;
+	border: none;
+	border: 1px solid grey;
+}
+input:hover{
+	background-color: #b3b3b3;
+}
+.operator:hover{
+	background-color: #d05007;
+}
+a{
+	color: #d9c9e8;
+}
+footer{
+	 font-family: share tech mono;
+   font-size: 25px;
+   margin: 15px;
+   color: black;
+}
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+footer a:active{
+	text-decoration: none;
+	color: white;
+}
+.result, .memory{
+	font-family: share tech mono;
+}
+.memory{
+	color: #3b3b3b;
+}
